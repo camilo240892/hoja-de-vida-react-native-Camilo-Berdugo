@@ -31,14 +31,14 @@ const inicio = () => {
           nombreIcono="mail"
           colorBoton="#E8D464"
           onPress={() =>
-            Alert.alert("Contacto", "Correo: david.berdugo@misena.edu.co")
+            Alert.alert("Contacto", "Correo: camilo.berdugo24@gmail.com")
           }
         />
         <MiBoton
           textoBoton="Llamar"
           nombreIcono="call"
           colorBoton="#5B7FE8"
-          onPress={() => Alert.alert("Contacto", "Teléfono: +57 300 000 0000")}
+          onPress={() => Alert.alert("Contacto", "Teléfono: +57 3203999509")}
         />
         <MiBoton
           textoBoton="Ver Perfil LinkedIn"
@@ -67,7 +67,7 @@ const inicio = () => {
           nombreIcono="logo-github"
           colorBoton="#24292e"
           onPress={() =>
-            Alert.alert("GitHub", "github.com/tu-usuario/hoja-de-vida-app")
+            Alert.alert("GitHub", "github.com/camilo240892/hoja-de-vida-react-native-Camilo-Berdugo")
           }
         />
         <MiBoton
