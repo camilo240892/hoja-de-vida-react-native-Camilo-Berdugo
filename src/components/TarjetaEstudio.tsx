@@ -15,10 +15,10 @@ const TarjetaEstudio = ({ titulo, institucion, anio, enCurso }: Props) => {
       <Text style={estilos.titulo}>{titulo}</Text>
 
       {enCurso && (
-        <View style={estilos.capsula}>
-          <Text style={estilos.badge}>En Curso</Text>
-        </View>
-      )}
+  <View style={estilos.capsula}>
+    <Text style={estilos.badge}>En Curso</Text>
+  </View>
+)}
 
       <Text style={estilos.subtitulo}>{institucion}</Text>
       <Text style={estilos.anio}>{anio}</Text>
@@ -36,12 +36,11 @@ const estilos = StyleSheet.create({
   subtitulo: { fontSize: 14, color: "#555" },
   anio: { fontSize: 12, color: "#888" },
   capsula: {
-    alignSelf: "flex-start",
-    backgroundColor: "#7c3aed",
-    borderRadius: 20,
-    paddingHorizontal: 10,
-    paddingVertical: 2,
-    marginVertical: 4,
-  },
-  badge: { color: "#ffffff", fontWeight: "bold", fontSize: 12 },
-});
+  alignSelf: "flex-start",
+  backgroundColor: "#7c3aed",
+  borderRadius: 20,
+  paddingHorizontal: 10,
+  paddingVertical: 2,
+  marginVertical: 4,
+},
+badge: { color: "#ffffff", fontWeight: "bold", fontSize: 12 }
