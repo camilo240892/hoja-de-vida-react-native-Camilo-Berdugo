@@ -71,10 +71,10 @@ const inicio = () => {
           }
         />
         <MiBoton
-          textoBoton="Estudios"
-          nombreIcono="school"
-          colorBoton="#EF6C63"
-          onPress={() => router.push("/estudios")}
+          textoBoton="TikTok"
+          nombreIcono="logo-tiktok"
+          colorBoton="#010101"
+          onPress={() => Alert.alert("TikTok", "Camilo Berdugo")}
         />
       </View>
     </ScrollView>

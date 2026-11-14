@@ -36,11 +36,12 @@ const estilos = StyleSheet.create({
   subtitulo: { fontSize: 14, color: "#555" },
   anio: { fontSize: 12, color: "#888" },
   capsula: {
-  alignSelf: "flex-start",
-  backgroundColor: "#7c3aed",
-  borderRadius: 20,
-  paddingHorizontal: 10,
-  paddingVertical: 2,
-  marginVertical: 4,
-},
-badge: { color: "#ffffff", fontWeight: "bold", fontSize: 12 }
+    alignSelf: "flex-start",
+    backgroundColor: "#7c3aed",
+    borderRadius: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+    marginVertical: 4,
+  },
+  badge: { color: "#ffffff", fontWeight: "bold", fontSize: 12 },
+});
