@@ -45,7 +45,7 @@ const inicio = () => {
           nombreIcono="logo-linkedin"
           colorBoton="#0A66C2"
           onPress={() =>
-            Alert.alert("LinkedIn", "linkedin.com/in/david-berdugo")
+            Alert.alert("LinkedIn", "camilo.berdugo.linkedin.com")
           }
         />
         <MiBoton
@@ -60,21 +60,30 @@ const inicio = () => {
           textoBoton="Instagram"
           nombreIcono="logo-instagram"
           colorBoton="#E1306C"
-          onPress={() => Alert.alert("Instagram", "@david.berdugo")}
-        />
-        <MiBoton
-          textoBoton="GitHub"
-          nombreIcono="logo-github"
-          colorBoton="#24292e"
-          onPress={() =>
-            Alert.alert("GitHub", "github.com/camilo240892/hoja-de-vida-react-native-Camilo-Berdugo")
-          }
+          onPress={() => Alert.alert("Instagram", "Camilo.berdugo@instagtram.com")}
         />
         <MiBoton
           textoBoton="TikTok"
           nombreIcono="logo-tiktok"
           colorBoton="#010101"
           onPress={() => Alert.alert("TikTok", "Camilo Berdugo")}
+        />
+        <MiBoton
+          textoBoton="GitHub"
+          nombreIcono="logo-github"
+          colorBoton="#24292e"
+          onPress={() =>
+            Alert.alert(
+              "GitHub",
+              "github.com/camilo240892/hoja-de-vida-react-native-Camilo-Berdugo"
+            )
+          }
+        />
+        <MiBoton
+          textoBoton="Estudios"
+          nombreIcono="school"
+          colorBoton="#EF6C63"
+          onPress={() => router.push("/estudios")}
         />
       </View>
     </ScrollView>
